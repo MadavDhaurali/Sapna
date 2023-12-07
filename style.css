@@ -1,0 +1,43 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+}
+
+.aboutUs, .home, .contactUs, .download, .contact, footer{
+    font-family: 'Poppins', sans-serif;
+}
+  
+  /* Style the navigation */
+  nav {
+    background-color: #333; 
+    position:static;
+    
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white; /* Change the text color as needed */
+    padding: 10px;
+    display: block;
+    color: rgb(254, 254, 254);
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Style the links on
+  
+  

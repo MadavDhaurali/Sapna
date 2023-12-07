@@ -1,0 +1,29 @@
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/2efb95177362967.64d4c8840ffab.png");
+    display: flex; */
+    /* background: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/2efb95177362967.64d4c8840ffab.png"); */
+    /* Set a specific height */
+/* background: url("madav.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.fpbh2-1.fna.fbcdn.net/v/t39.30808-6/339129079_1005351320428595_1902340814553891426_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9534ce&_nc_ohc=hHYJVCxd5SYAX-Sxr69&_nc_ht=scontent.fpbh2-1.fna&oh=00_AfBVVSUOQ2zPExrCdqT9V0Ms8YSe3kLtkniSxeEC3_M-gg&oe=6577C6C5");
+
+    
+  
+    /* Position and center the image to scale nicely on all screens */
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
