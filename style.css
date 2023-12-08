@@ -13,7 +13,7 @@ body, ul {
   /* Style the navigation */
   nav {
     background-color: #333; 
-    position:static;
+    /* position:static; */
     
   }
   
@@ -41,25 +41,6 @@ body, ul {
 
 /*About Page */
 
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-} */
-
-/* html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-} */
-/* 
-.column {
-  float:none;
-  width: 100%;
-  margin-bottom: 16px;
-  padding: 0px;
-} */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -83,9 +64,6 @@ body, ul {
   display: table;
 }
 
-.title {
-  color: grey;
-}
 
 .button {
   border: none;
@@ -99,10 +77,13 @@ body, ul {
   width: 100%;
 }
 
+/* about  */
 
-/* @media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-} */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+
+
+
